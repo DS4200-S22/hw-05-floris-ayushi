@@ -1,7 +1,7 @@
 # hw-05
 hw-05 - Brushing and Linking 
 
-Link to GitHub Pages: `[insert your clickable hyperlink here]`
+Link to GitHub Pages: `[https://ds4200-s22.github.io/hw-05-hw-05-floris-ayushi/]`
 
 ## Purpose
 
@@ -13,7 +13,7 @@ The purpose of this assignment is practice event handling with JavaScript.
 
 1. You can find a reference for what your final webpage should look like and how it should behanve in the "reference" folder. 
 
-1. Create a GitHub Page for your repo and add the link to your GitHub Page above where you see `[insert your clickable hyperlink here]`. 
+1. Create a GitHub Page for your repo and add the link to your GitHub Page above where you see `[https://ds4200-s22.github.io/hw-05-hw-05-floris-ayushi/]`. 
 
 1. Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting. 
 
