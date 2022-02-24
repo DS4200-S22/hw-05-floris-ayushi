@@ -28,8 +28,8 @@ The purpose of this assignment is practice event handling with JavaScript.
 - [ ] Your main task for this assignment is to create a coordinated visualization consisting of two scatter plots and one bar chart. These three charts will be coordinated via brushing and linking. If you open brushinglinking.js, you will see one of the three charts is implemented for you (Scatterplot1: Petal Length vs. Sepal Length), and that "TODO" comments walk you through remaining steps. Please be sure to read through all of the brushinglinking.js starter code before beginning your work. There are several function skeletons you will ultimates need to fill in. Please see the Brushing with D3 resource below to help with this assignment.  
 
 - [ ] After reading all of the above instructions, please complete the following:
-    - [ ] Add another scatterplot (Scatterplot2) that shows Petal Width vs. Sepal Width.  
-    - [ ] Add a barchart that shows counts of each Iris species in the iris.csv dataset. **You may hardcode the data for this plot, you do not need to dynamically calculate counts.** 
+    - [x] Add another scatterplot (Scatterplot2) that shows Petal Width vs. Sepal Width.  
+    - [x] Add a barchart that shows counts of each Iris species in the iris.csv dataset. **You may hardcode the data for this plot, you do not need to dynamically calculate counts.** 
     - [ ] Implement brushing and linking such that when a user brushes points in Scatterplot1 corresponding points in Scatterplot2 are highlighted by bold borders.
     - [ ] Implement brushing and linking such that when a user brushes points in Scatterplot2 corresponding points in Scatterplot1 are highlighted by bold borders and species included in the brush are highlighted by bold borders in the bar chart.      
 
