@@ -9,29 +9,29 @@ The purpose of this assignment is practice event handling with JavaScript.
 
 ## Instructions
 
-1. Background material to support this assignment is provided below in the Resources section.  
+- [x] Background material to support this assignment is provided below in the Resources section.  
 
-1. You can find a reference for what your final webpage should look like and how it should behanve in the "reference" folder. 
+- [x] You can find a reference for what your final webpage should look like and how it should behanve in the "reference" folder. 
 
-1. Create a GitHub Page for your repo and add the link to your GitHub Page above where you see `[insert your clickable hyperlink here]`. 
+- [x] Create a GitHub Page for your repo and add the link to your GitHub Page above where you see `[insert your clickable hyperlink here]`. 
 
-1. Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting. 
+- [x] Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting. 
 
-1. A .css file (style.css) was included in your repo. Add this file to your index.html file as an an **external** stylesheet. All styling for your webpage should be achieved using this external stylesheet.  
+- [x] A .css file (style.css) was included in your repo. Add this file to your index.html file as an an **external** stylesheet. All styling for your webpage should be achieved using this external stylesheet.  
 
-1. One JavaScript file (js/brushinglinking.js) was included in your repo. Add this files to your index.html file as an **external** script. All JavaScript code you write should be in this file or another .js file you create. 
+- [ ] One JavaScript file (js/brushinglinking.js) was included in your repo. Add this files to your index.html file as an **external** script. All JavaScript code you write should be in this file or another .js file you create. 
 
-1. The d3.v6 library (js/d3.v6.1.1/d3.min.js) was included in your repo. Add this file to your index.html file as an **external** script. You will not edit the file, but you need to include it to have access to D3 functions.     
+- [ ] The d3.v6 library (js/d3.v6.1.1/d3.min.js) was included in your repo. Add this file to your index.html file as an **external** script. You will not edit the file, but you need to include it to have access to D3 functions.     
 
-1. You will be plotting the data included in the data folder (iris.csv). In order to plot this data you will need to start a python simple server from the directory in which your code is stored. Instructions for the simple server are provided in the section below.         
+- [ ] You will be plotting the data included in the data folder (iris.csv). In order to plot this data you will need to start a python simple server from the directory in which your code is stored. Instructions for the simple server are provided in the section below.         
 
-1. Your main task for this assignment is to create a coordinated visualization consisting of two scatter plots and one bar chart. These three charts will be coordinated via brushing and linking. If you open brushinglinking.js, you will see one of the three charts is implemented for you (Scatterplot1: Petal Length vs. Sepal Length), and that "TODO" comments walk you through remaining steps. Please be sure to read through all of the brushinglinking.js starter code before begining your work. There are several function skeletons you will ultimates need to fill in. Please see the Brushing with D3 resource below to help with this assignment.  
+- [ ] Your main task for this assignment is to create a coordinated visualization consisting of two scatter plots and one bar chart. These three charts will be coordinated via brushing and linking. If you open brushinglinking.js, you will see one of the three charts is implemented for you (Scatterplot1: Petal Length vs. Sepal Length), and that "TODO" comments walk you through remaining steps. Please be sure to read through all of the brushinglinking.js starter code before begining your work. There are several function skeletons you will ultimates need to fill in. Please see the Brushing with D3 resource below to help with this assignment.  
 
-1. After reading all of the above instructions, plese complete the following:
-    - Add another scatterplot (Scatterplot2) that shows Petal Width vs. Sepal Width.  
-    - Add a barchart that shows counts of each Iris species in the iris.csv dataset. **You may hardcode the data for this plot, you do not need to dynamically calculate counts.** 
-    - Implement brushing and linking such that when a user brushes points in Scatterplot1 corresponding points in Scatterplot2 are highlighted by bold borders.
-    - Implement brushing and linking such that when a user brushes points in Scatterplot2 corresponding points in Scatterplot1 are highlighted by bold borders and species included in the brush are highlighted by bold borders in the bar chart.      
+- [ ] After reading all of the above instructions, plese complete the following:
+    - [ ] Add another scatterplot (Scatterplot2) that shows Petal Width vs. Sepal Width.  
+    - [ ] Add a barchart that shows counts of each Iris species in the iris.csv dataset. **You may hardcode the data for this plot, you do not need to dynamically calculate counts.** 
+    - [ ] Implement brushing and linking such that when a user brushes points in Scatterplot1 corresponding points in Scatterplot2 are highlighted by bold borders.
+    - [ ] Implement brushing and linking such that when a user brushes points in Scatterplot2 corresponding points in Scatterplot1 are highlighted by bold borders and species included in the brush are highlighted by bold borders in the bar chart.      
 
 ## Python Simple Server
 
