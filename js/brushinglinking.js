@@ -108,10 +108,10 @@ d3.csv("data/iris.csv").then((data) => {
       .style("fill", (d) => color(d.Species))
       .style("opacity", 0.5);
 
-    //TODO: Define a brush (call it brush1)
-
-    //TODO: Add brush1 to svg1
-
+    //TODO: Define a brush (call it brush1) and add brush1 to svg1
+    let brush1 = svg1.call(d3.brush()
+      .extent([[0, 0], [width, height]])
+    );
   }
 
   //TODO: Scatterplot 2 (show Sepal width on x-axis and Petal width on y-axis)
@@ -173,9 +173,10 @@ d3.csv("data/iris.csv").then((data) => {
       .style("fill", (d) => color(d.Species))
       .style("opacity", 0.5);
 
-    //TODO: Define a brush (call it brush2)
-
-    //TODO: Add brush2 to svg2
+    //TODO: Define a brush (call it brush1) and add brush1 to svg1
+    let brush2 = svg2.call(d3.brush()
+      .extent([[0, 0], [width, height]])
+    );
   }
 
   //TODO: Barchart with counts of different species
@@ -251,6 +252,7 @@ d3.csv("data/iris.csv").then((data) => {
     svg1.call(brush1.move, null);
 
     //TODO: add code to clear existing brush from svg2
+    svg2.call(brush2.move, null);
   }
 
   // Call when Scatterplot1 is brushed 
