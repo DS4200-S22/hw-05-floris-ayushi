@@ -108,11 +108,13 @@ d3.csv("data/iris.csv").then((data) => {
       .style("fill", (d) => color(d.Species))
       .style("opacity", 0.5);
 
-    // Define a brush and add brush1 to svg1
-    brush1 = svg1.call(d3.brush()
-      .extent([[0, 0], [width, height]])
-      .on("start brush", updateChart1)
-    );
+    // Define a brush
+    brush1 = d3.brush().extent([[0, 0], [width, height]])
+
+    // Add brush to svg1
+    svg1.call(brush1
+      .on("start", clear)
+      .on("brush", updateChart1));
   }
 
   // Scatterplot 2
@@ -174,11 +176,13 @@ d3.csv("data/iris.csv").then((data) => {
       .style("fill", (d) => color(d.Species))
       .style("opacity", 0.5);
 
-    // Define a brush and add brush2 to svg2
-    brush2 = svg2.call(d3.brush()
-      .extent([[0, 0], [width, height]])
-      .on("start brush", updateChart2)
-    );
+    // Define a brush
+    brush2 = d3.brush().extent([[0, 0], [width, height]])
+
+    // Add brush to svg2
+    svg2.call(brush2
+      .on("start", clear)
+      .on("brush", updateChart2));
   }
 
   // Barchart with counts of different species
